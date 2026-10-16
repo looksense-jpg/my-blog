@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import '../styles/global.css';
 
 const posts = await getCollection('blog');
 const sortedPosts = posts.sort(
@@ -13,33 +14,31 @@ const sortedPosts = posts.sort(
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>재택근무 장비 블로그</title>
-    <meta name="description" content="재택근무에 필요한 장비를 소개합니다." />
+    <meta name="description" content="재택근무에 필요한 장비를 솔직하게 리뷰합니다." />
   </head>
-  <body style="max-width: 720px; margin: 40px auto; padding: 0 20px; font-family: sans-serif; line-height: 1.7;">
-    <header>
-      <h1>재택근무 장비 블로그</h1>
-      <p style="color: #888;">재택근무자를 위한 장비 리뷰와 추천</p>
-      <hr />
-    </header>
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <h1><a href="/my-blog/">재택근무 장비 블로그</a></h1>
+        <p>재택근무자를 위한 장비 리뷰와 추천</p>
+      </header>
 
-    <main>
-      <h2>최신 글</h2>
-      <ul style="list-style: none; padding: 0;">
-        {sortedPosts.map((post) => (
-          <li style="margin-bottom: 24px;">
-            <a
-              href={`/my-blog/blog/${post.id}/`}
-              style="font-size: 20px; color: #0066cc; text-decoration: none; font-weight: bold;"
-            >
-              {post.data.title}
-            </a>
-            <p style="color: #888; font-size: 14px; margin: 4px 0;">
-              {post.data.pubDate.toLocaleDateString('ko-KR')}
-            </p>
-            <p>{post.data.description}</p>
-          </li>
-        ))}
-      </ul>
-    </main>
+      <main>
+        <h2>최신 글</h2>
+        <ul class="post-list">
+          {sortedPosts.map((post) => (
+            <li>
+              <a href={`/my-blog/blog/${post.id}/`}>{post.data.title}</a>
+              <div class="date">{post.data.pubDate.toLocaleDateString('ko-KR')}</div>
+              <p class="desc">{post.data.description}</p>
+            </li>
+          ))}
+        </ul>
+      </main>
+
+      <footer class="site-footer">
+        © 2026 재택근무 장비 블로그
+      </footer>
+    </div>
   </body>
 </html>
