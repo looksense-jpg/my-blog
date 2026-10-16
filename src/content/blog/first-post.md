@@ -19,7 +19,7 @@ pubDate: 2026-10-17
 <div class="content">
 30만원 예산이면 삼성 27인치 M7 시리즈를 추천드립니다. 스마트 TV 기능도 있고, 눈부심 방지도 잘 되어 있어서 장시간 사용에 좋아요. 저도 6개월째 쓰고 있는데 만족합니다.
 
-<a href="https://link.coupang.com/a/여기에_본인_쿠팡링크" class="cta-button" target="_blank" rel="noopener">👉 쿠팡 최저가 확인</a>
+<a href="https://link.coupang.com/a/hTXJjSiJye" class="cta-button" target="_blank" rel="noopener">👉 쿠팡 최저가 확인</a>
 </div>
 <div class="meta">2026-10-17 · 채택된 답변</div>
 </div>
@@ -29,7 +29,7 @@ pubDate: 2026-10-17
 <div class="content">
 LG 27인치도 괜찮아요. 색감이 좋아서 작업용으로 딱이고, 가끔 게임도 하신다면 더 추천합니다. 다만 스피커는 별로예요.
 
-<a href="https://link.coupang.com/a/여기에_본인_쿠팡링크" class="cta-button" target="_blank" rel="noopener">👉 쿠팡 최저가 확인</a>
+<a href="https://link.coupang.com/a/hTXQ1phuFw" class="cta-button" target="_blank" rel="noopener">👉 쿠팡 최저가 확인</a>
 </div>
 <div class="meta">2026-10-17</div>
 </div>
@@ -39,7 +39,7 @@ LG 27인치도 괜찮아요. 색감이 좋아서 작업용으로 딱이고, 가�
 <div class="content">
 예산이 빠듯하면 한성 27인치도 나쁘지 않아요. 20만원대인데 성능은 준수합니다. 처음 사는 분들한테 추천해요.
 
-<a href="https://link.coupang.com/a/여기에_본인_쿠팡링크" class="cta-button" target="_blank" rel="noopener">👉 쿠팡 최저가 확인</a>
+<a href="https://link.coupang.com/a/hTXUnjSZk4" class="cta-button" target="_blank" rel="noopener">👉 쿠팡 최저가 확인</a>
 </div>
 <div class="meta">2026-10-17</div>
 </div>
